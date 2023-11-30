@@ -1,0 +1,25 @@
+.jumbotroneWrapper {
+  display: flex;
+  min-height: 90vh;
+}
+
+.jumboFigure {
+  width: 60%;
+}
+.jumboFigure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+main {
+  width: 40%;
+}
+
+.mainTop {
+  background-color: rgb(175, 175, 21);
+  padding: 2rem;
+}
+
+.underLine {
+}
