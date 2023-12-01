@@ -14,12 +14,37 @@
 
 main {
   width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .mainTop {
   background-color: rgb(175, 175, 21);
   padding: 2rem;
+  height: 100%;
 }
 
 .underLine {
+  width: 100%;
+  height: 4px;
+  background-color: black;
+  border-radius: 10px;
+  margin: 10px 0 20px;
+}
+
+.mainTop button {
+  padding: 0.5rem 1rem;
+  margin: 10px 0;
+}
+
+.mainNav {
+  width: 100%;
+  display: flex;
+}
+
+.mainNav button {
+  width: 50%;
+  padding: 2rem;
+  align-content: center;
 }

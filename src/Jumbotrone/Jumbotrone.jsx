@@ -27,7 +27,8 @@ const Jumbotrone = ({ imgURL, subtitle, title, paragraph, showBtn }) => {
 
           {btn2}
 
-          {/* {
+          {/* OPZIONE 3 CONDIZIONE
+          {
             showBtn  (<button>Read More</button> )
           } */}
         </div>
